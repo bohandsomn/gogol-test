@@ -1,0 +1,6 @@
+<nav>
+    <button [hidden]="intervalId !== null" (click)="start()">Start</button>
+    <button [hidden]="intervalId === null" (click)="stop()">Stop</button>
+    <button (click)="wait()">Wait</button>
+    <button (click)="reset()">Reset</button>
+</nav>

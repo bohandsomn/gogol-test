@@ -1,0 +1,8 @@
+@import '../../styles.scss';
+
+.display {
+    font-size: 208px;
+    &, span {
+        font-family: $display-font-family;
+    }
+}

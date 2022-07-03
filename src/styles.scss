@@ -1,0 +1,15 @@
+@import 'https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Rajdhani&display=swap';
+
+$main-font-family: 'Montserrat', sans-serif;
+$main-color: 'black';
+$main-background: 'white';
+
+$display-font-family: 'Rajdhani', sans-serif;
+$button-color: rgb(97, 179, 255);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: $main-font-family;
+}
